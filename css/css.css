@@ -5,6 +5,26 @@
 
 
 
+/* -----nav */
+.navbar-nav li:hover > ul.dropdown-menu {
+    display: block;
+}
+.dropdown-submenu {
+    position:relative;
+}
+.dropdown-submenu > .dropdown-menu {
+    top: 0;
+    left: 100%;
+    margin-top:-6px;
+}
+
+/* rotate caret on hover */
+.dropdown-menu > li > a:hover:after {
+    text-decoration: underline;
+    transform: rotate(-90deg);
+} 
+
+
     
 /* ----------------------------------------------  HEADER START----------------------- */
 
@@ -21,9 +41,9 @@
 .navbar-option{
     margin-right: 15px;
 }
-.dropdown:hover .dropdown-menu{
+/* .dropdown:hover .dropdown-menu{
     display: block;
-}
+} */
 
 .x{
     color:black;
@@ -32,10 +52,10 @@
 
 
 #x:hover{
-    color: rgb(36, 147, 211);
+    color: rgb(5, 117, 223);
 }
 #navbarDropdownMenuLink:hover{
-    color: rgb(36, 147, 211);
+    color: rgb(5, 117, 223);
 }
 
 /* ------navbar end------- */
@@ -84,6 +104,24 @@
 
 
 /* --------------Solutions & Services start--------- */
+
+.solutions{
+    text-decoration: none;
+    font-size: 17px;
+    color: black;
+    display: block;
+    transition: 0.3s;
+}
+
+.solutions:hover{
+    color: black;
+    box-shadow: rgba(83, 83, 83, 0.24) 0px 3px 8px;
+}
+
+.arrow-icon{
+    width: 25px;
+    margin-left: 15px;
+}
 #solution-title{
     text-align: center;
     margin-top: 50px;
@@ -103,35 +141,27 @@
     padding-top: 50px;
     padding-bottom: 50px;
 }
-.solutions{
-    text-decoration: none;
-    font-size: 17px;
-    color: black;
-    text-align: center;
-    display: block;
-}
 
 
 /* --------------Solutions & Services end---------- */
 
 
 /* --------------Solution and Product Start ------- */
+
 #solution-product{
     background-color: #f8f8f8;
     padding-bottom: 50px;
     padding-top: 50px;
 }
-.solution-product{
-    height: 250px;
-}
-.sol-product{
+.solution-img{
     width: 100px;
-    margin: auto;
+    margin-left: auto;
+    margin-right: auto;
     display: block;
-    margin-bottom: 40px;
+    margin-bottom: 20px;
 }
-.edu{
-    width: 80px;
+.solution-product{
+    height: 240px;
 }
 
 /* -------------- Solution and product End ---------- */
