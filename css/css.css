@@ -146,26 +146,6 @@
 /* --------------Solutions & Services end---------- */
 
 
-/* --------------Solution and Product Start ------- */
-
-#solution-product{
-    background-color: #f8f8f8;
-    padding-bottom: 50px;
-    padding-top: 50px;
-}
-.solution-img{
-    width: 100px;
-    margin-left: auto;
-    margin-right: auto;
-    display: block;
-    margin-bottom: 20px;
-}
-.solution-product{
-    height: 240px;
-}
-
-/* -------------- Solution and product End ---------- */
-
 
 
 
@@ -650,6 +630,29 @@
 }
 
 /* ===========================================ERP END ======================= */
+
+/* ===========================================HR Start================= */
+#hr-management-bg{
+    background: rgba(1, 1, 1, 0.822) url('../hr/hr.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+    max-width: 100%;
+    height: 50vh;
+    background-blend-mode: darken;
+}
+
+.hr-values{
+    width: 100%;
+}
+.hr-feature{
+    text-align: center;
+    font-weight: 600;
+    color: gray;
+}
+
+/* =========================================== HR END ==================== */
 
 /* =========================================== Digital Learning ================ */
 #study{
